@@ -1,78 +1,63 @@
 <div align="center">
   <img src="assets/siteguardly-mark.png" width="112" alt="SiteGuardly logo">
-  <h1>Ellen Rensenbrink · SiteGuardly</h1>
-  <p><strong>Web development, integrations, technical SEO and website security from the Netherlands.</strong></p>
-  <p>
-    <a href="https://siteguardly.com">Website</a> ·
-    <a href="https://github.com/SiteGuardly?tab=repositories">Repositories</a> ·
-    <a href="https://siteguardly.github.io">Technical portfolio</a>
-  </p>
+  <h1>Henk &amp; Ellen Rensenbrink · SiteGuardly</h1>
+  <p><strong>Full-stack development, WordPress, WooCommerce and practical integrations from the Netherlands.</strong></p>
+  <p><a href="https://siteguardly.com">Website</a> · <a href="https://shop.siteguardly.com">Plugin shop & demos</a> · <a href="https://siteguardly.github.io">Technical portfolio</a></p>
 </div>
 
-## About
+## Who we are
 
-I am a Netherlands-based web developer with more than 15 years of experience in web design and development. I grew alongside the development of modern content management systems and now work across custom WordPress and WooCommerce solutions, Shopify, PHP, JavaScript, Python, API integrations, technical SEO and website security.
+We are Henk & Ellen Rensenbrink, the family team behind **SiteGuardly** in Hallum, the Netherlands. Our team brings more than 15 years of website development experience. We work remotely with Dutch and international clients and communicate in Dutch and English.
 
-Together with my partner I run **SiteGuardly**, where we combine development, security, monitoring and practical communication into one controlled delivery process. I work in Dutch and English.
+We build and improve websites, online shops, custom plugins and Python applications. We can handle both the interface visitors see and the server-side logic, databases and integrations behind it. Henk leads technical development; Ellen focuses on client communication, assessment and coordination.
 
-## What I build
+## What we can help with
 
-| Area | Experience |
+| Area | Practical work |
 | --- | --- |
-| WordPress & WooCommerce | Custom plugins and themes, complex data models, imports, subscriptions, dashboards and safe maintenance |
-| Integrations | REST APIs, OAuth, webhooks, CRM, payment, accounting, CMS and marketplace connections |
-| Python applications | Dashboards, data pipelines, background jobs, automation, local-first tooling and API clients |
-| Technical SEO | Crawlability, structured data, performance, content architecture, tracking and measurable remediation |
-| Security & reliability | Malware investigation, hardening, audit trails, least-privilege design, backups and controlled releases |
-| Frontend & UX | Responsive interfaces, accessibility, clear information hierarchy and maintainable design systems |
-
-## How SiteGuardly works
-
-```mermaid
-flowchart LR
-    A[Scope & priorities] --> B[Private sandbox]
-    B --> C[Development & testing]
-    C --> D[Client review]
-    D -->|feedback| C
-    D -->|approval| E[Controlled live release]
-    E --> F[Verification & handover]
-```
-
-- **Private sandbox:** changes are built and tested away from the live website whenever the platform allows it.
-- **Transparent planning:** work is organised on a shared Trello board where the client can follow progress, comment and approve items.
-- **Clear communication:** written updates remain easy to review; email, Teams or Zoom can be used when a conversation is more effective.
-- **Custom engineering:** I prefer cohesive, maintainable solutions over stacking unrelated plugins that introduce conflicts or unnecessary risk.
-- **Safe publication:** this GitHub profile contains portfolio material and deliberately sanitised demonstrations. Customer data, credentials and proprietary production code remain private.
+| WordPress & WooCommerce | Custom themes and plugins, responsive websites, forms, subscriptions, customer accounts and maintenance |
+| Integrations & automation | REST APIs, OAuth, webhooks, payment workflows and carefully scoped connections between systems |
+| Python & SQLite | Dashboards, data processing, background jobs and automation, demonstrated in our ETF and smart-home projects |
+| Technical SEO | Website structure, crawlability, metadata, structured data, performance checks and clear reports |
+| Website security | Malware investigation, hardening, backups, monitoring and controlled releases |
+| Frontend & usability | PHP, JavaScript, HTML and CSS; clear navigation, mobile layouts and accessible forms |
 
 ## Selected work
 
 ### [SiteGuardly platform](https://github.com/SiteGuardly/siteguardly-platform-case-study)
+Our custom WordPress platform for website monitoring, security, technical SEO and quality reporting.
 
-A custom WordPress platform for website security, technical SEO, quality monitoring, reporting and controlled integrations.
+### [SiteGuardly Shop](https://shop.siteguardly.com)
+Our own WordPress/WooCommerce shop with custom theme, product demonstrations, subscriptions, licences, protected downloads, support tickets and a customer forum.
+
+- **[Guardly Flow](https://shop.siteguardly.com/product/offerte-plugin-woocommerce/):** request forms, quotations, PDF documents, email verification, signing, invoice plans and reminders.
+- **[Guardly Gift](https://shop.siteguardly.com/product/gift/):** gift-card sales, delivery, balances and redemption, usable independently or alongside Flow.
+- **Guardly Ledger:** accounting integration work currently in development. Provider support is released only after separate verification.
+
+### [Frisiana club website](https://github.com/SiteGuardly/frisiana-club-work-in-progress)
+A responsive club website redesign, presented as work in progress.
 
 ### [ETF AI Bot](https://github.com/SiteGuardly/etf-ai-bot-case-study)
+A Python and SQLite research and automation project with data checks and an operator dashboard. This is engineering portfolio material, not an investment recommendation.
 
-A private Python research and automation platform with defensive execution boundaries, data-quality controls and a responsive operator dashboard.
+### [Smart-home dashboard](https://github.com/SiteGuardly/smart-home-dashboard-case-study)
+A Python dashboard bringing home services and resilient integrations into one interface.
 
-### [Smart Home Operations Dashboard](https://github.com/SiteGuardly/smart-home-dashboard-case-study)
+### [WordPress workflow adapter demo](https://github.com/SiteGuardly/wordpress-workflow-adapter-demo)
+A public PHP example showing reusable workflow logic, validation, audit logging and automated tests.
 
-A local-first Python dashboard combining energy, lighting, audio, network and household services through resilient integrations.
+## How we work
 
-### [WordPress Workflow Adapter Demo](https://github.com/SiteGuardly/wordpress-workflow-adapter-demo)
+1. Agree the scope, priorities and price.
+2. Build in a **Sandbox**: a separate preview environment where clients can review changes before they reach the live website.
+3. Track tasks and feedback on a shared **Trello** board.
+4. Test functionality, mobile layouts and the relevant integration paths.
+5. Release the agreed version, verify it and explain how to manage it.
 
-A safe public code sample demonstrating centralised state changes, CSV validation, webhook reuse, audit logging and automated tests.
+Public repositories contain case studies and deliberately sanitised examples. Client data, access credentials and proprietary production code remain private. We describe tested functionality separately from development plans.
 
-## Engineering principles
+## Discuss a project
 
-1. Make important behaviour explicit and testable.
-2. Keep third-party services behind adapters.
-3. Validate input at every trust boundary.
-4. Design background work to be retry-safe.
-5. Preserve an audit trail for consequential changes.
-6. Release only after review and verification.
+Tell us what you have, what needs to improve and which systems need to work together: **[siteguardly.com](https://siteguardly.com)** · **info@siteguardly.com**.
 
----
-
-<div align="center">
-  <em>Public evidence of private, production-minded engineering.</em>
-</div>
+**Henk & Ellen Rensenbrink, Family SiteGuardly**
